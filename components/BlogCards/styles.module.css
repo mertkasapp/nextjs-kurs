@@ -1,0 +1,24 @@
+.cards img{
+border-radius: 10px;
+}
+.kapsa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 90ch;
+}
+
+@media screen and (max-width: 600px) {
+     .content{
+      font-size: 12px;
+      width: 30ch;
+    }
+  }

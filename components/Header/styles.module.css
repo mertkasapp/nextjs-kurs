@@ -1,0 +1,13 @@
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.header a{
+text-decoration: none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700px;
+    color:white
+}
